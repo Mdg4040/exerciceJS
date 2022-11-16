@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+</head>
+
+<body>
+
+
+    <script>
+        let nombre = prompt("Veuillez saisir un nombre")
+        let p=1
+        let i=0
+        while (p<nombre ) {
+            p++
+            if ((p%2)==0) { 
+                i++
+            }
+        }
+        alert("Il y a "+i+" nombres paires compris entre 0 et "+ nombre)
+        nombre = prompt("Veuillez saisir un autre nombre")
+         p=1
+         i=0
+        while (p<nombre ) {
+            p++
+            if ((p%2)!==0) { 
+                i++
+            }
+        }
+        alert("Il y a "+i+" nombres impaires compris entre 0 et "+ nombre)
+     
+    </script>
+</body>
+
+</html>

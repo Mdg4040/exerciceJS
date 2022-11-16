@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 5</title>
+</head>
+<body>
+    
+    <script>
+        let x1=Number
+        let x2=Number
+        let delta= Number
+        let a=prompt("Saisissez la valeur de a")
+        let b=prompt("Saisissez la valeur de b")
+        let c=prompt("Saisissez la valeur de c")
+         delta=Math.sqrt(((a^2)+(a*b*2)-(a*c*4)))
+        if (delta<0) {
+            alert("Racine indeterminé")
+        }
+        else if(delta==0){
+            x1=(delta+b)/(2*a)
+            x1=x2
+            alert("Les deux racines sont egaux: "+ x1)
+        }
+        else{
+            x1=(delta+b)/(2*a)
+            x2=(delta-b)/(2*a)
+            alert("Les deux racines sont: "+ x1+" et "+ x2)
+        }
+        
+    </script>
+</body>
+</html>
