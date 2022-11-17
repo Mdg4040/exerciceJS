@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <script>
+        let nombre=Number, compter=Number, a='',factoriel=Number
+        let chiffre =['']
+        factoriel=1
+        alert("Cet exercice consiste à calculer la factorielle d'un nombre")
+        nombre=prompt("Saisissez le nombre")
+        compter=0
+       for(let i=1; i<=nombre; i++){
+            factoriel*=i
+            compter=i+" X "
+            chiffre[chiffre.length]=compter
+            a+=chiffre[i]
+        }
+        alert("La factoriel est :"+a+' = '+factoriel)
+    </script>
+</body>
+</html>

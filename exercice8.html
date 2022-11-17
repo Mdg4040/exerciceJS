@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="acceuil"><a href="exercice9.html">Aller à l'exercice suivant</a></div> 
+    <script>
+        let nombre = prompt("Veuillez saisir un nombre entier"),a=''
+        let croissant=[nombre]
+        for (let i=0; i <10; i++) {
+            nombre++
+            croissant[croissant.length]=nombre
+        }
+        for (let i= 0; i < croissant.length; i++) {
+            a+=croissant[i+1]+'\n' 
+        }
+        alert("Les dix nombres suivants sont: " +'\n'+a)
+    </script>
+</body>
+</html>

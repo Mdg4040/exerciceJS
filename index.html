@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="exercice2.html">Aller à l'exercice suivant</a>
+   <div class="acceuil"><a href="exercice2.html">Aller à l'exercice suivant</a></div> 
 
 
     <script>
-        let mot_de_passe= prompt("Entrez votre mot de passe")
+       let mot_de_passe=String
+        alert("Cet exercice consiste à verifier le mot de passe")
+         mot_de_passe= prompt("Entrez votre mot de passe")
         const vrai = "meda2004"
         if (mot_de_passe==vrai)[
             alert("Bienvenue")
         ]
         else[
-            alert("Erreur de mot de passe")
+            mot_de_passe=prompt("Veuillez saisir le mot de passe correct qui est : meda2004")
         ]
     </script>
 </body>
